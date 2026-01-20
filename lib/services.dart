@@ -4,7 +4,9 @@ import 'dart:typed_data';
 import 'package:http/http.dart' as http;
 
 class AppConstants {
-  static const String apiUrl = "http://192.168.10.76:8000/remove-watermark";
+  // static const String apiUrl = "http://192.168.10.76:8000/remove-watermark";
+
+  static const String apiUrl = "http://127.0.0.1:8000/remove-watermark";
 
   static const String appTitle = 'Watermark Remover Pro';
   static const String appSubtitle = 'Remove watermarks instantly';
